@@ -1,0 +1,24 @@
+# Find a path with Dijkstra's algorithm on
+# a big graph that contains an isolated node
+
+created graph graph
+added node A to graph
+added node B to graph
+added node C to graph
+added node D to graph
+added node E to graph
+added node F to graph
+added node G to graph
+added node H to graph
+added node I to graph
+added edge 1.500 from C to D in graph
+added edge 3.000 from E to C in graph
+added edge 5.000 from C to H in graph
+added edge 2.500 from B to C in graph
+added edge 6.000 from H to G in graph
+added edge 7.000 from G to I in graph
+added edge 8.000 from D to I in graph
+added edge 1.500 from D to F in graph
+added edge 1.000 from E to F in graph
+path from C to C:
+total cost: 0.000

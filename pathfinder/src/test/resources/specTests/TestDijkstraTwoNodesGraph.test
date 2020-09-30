@@ -1,0 +1,10 @@
+# Find a path with Dijkstra's algorithm on
+# a graph that contains two nodes which are
+# connected by two different edge labels
+
+CreateGraph graph
+AddNode graph A
+AddNode graph B
+AddEdge graph A B 10.0
+AddEdge graph A B 5.0
+FindPath graph A B

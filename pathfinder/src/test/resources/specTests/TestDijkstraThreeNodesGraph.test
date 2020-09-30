@@ -1,0 +1,13 @@
+# Find a path with Dijkstra's algorithm on
+# a graph that contains three nodes
+
+CreateGraph graph
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddEdge graph A B 6.0
+AddEdge graph A B 5.0
+AddEdge graph A C 2.0
+AddEdge graph A C 3.0
+FindPath graph A B
+FindPath graph A C

@@ -1,0 +1,5 @@
+# Find a path with Dijkstra's algorithm on
+# an empty graph
+
+CreateGraph empty
+FindPath empty A B

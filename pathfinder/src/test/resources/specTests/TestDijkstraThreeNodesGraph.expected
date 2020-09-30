@@ -1,0 +1,17 @@
+# Find a path with Dijkstra's algorithm on
+# a graph that contains three nodes
+
+created graph graph
+added node A to graph
+added node B to graph
+added node C to graph
+added edge 6.000 from A to B in graph
+added edge 5.000 from A to B in graph
+added edge 2.000 from A to C in graph
+added edge 3.000 from A to C in graph
+path from A to B:
+A to B with weight 5.000
+total cost: 5.000
+path from A to C:
+A to C with weight 2.000
+total cost: 2.000

@@ -1,0 +1,28 @@
+# Find a path with Dijkstra's algorithm on
+# a big graph that contains reflexive nodes
+
+CreateGraph graph
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+AddNode graph E
+AddNode graph F
+AddNode graph G
+AddNode graph H
+AddNode graph I
+AddEdge graph C D 1.5
+AddEdge graph C E 3.0
+AddEdge graph C H 5.0
+AddEdge graph B C 2.5
+AddEdge graph B A 3.0
+AddEdge graph A H 2.0
+AddEdge graph H G 6.0
+AddEdge graph G I 7.0
+AddEdge graph I D 8.0
+AddEdge graph D F 1.5
+AddEdge graph E F 1.0
+AddEdge graph H H 1.0
+AddEdge graph C C 2.0
+AddEdge graph D D 3.0
+FindPath graph B F

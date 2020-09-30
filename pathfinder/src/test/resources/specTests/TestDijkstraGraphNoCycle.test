@@ -1,0 +1,22 @@
+# Find a path with Dijkstra's algorithm on
+# a big graph that contains no cycle
+
+CreateGraph graph
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+AddNode graph E
+AddNode graph F
+AddNode graph G
+AddNode graph H
+AddNode graph I
+AddEdge graph C A 12.0
+AddEdge graph C B 2.0
+AddEdge graph C D 3.0
+AddEdge graph C F 1.0
+AddEdge graph E C 4.0
+AddEdge graph D G 5.0
+AddEdge graph G I 7.0
+AddEdge graph G H 10.0
+FindPath graph E I

@@ -1,0 +1,6 @@
+# Find a path with Dijkstra's algorithm on
+# a graph that contains one node
+
+created graph graph
+added node A to graph
+unknown node B

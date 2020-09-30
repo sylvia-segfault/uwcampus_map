@@ -1,0 +1,24 @@
+# Find a path with Dijkstra's algorithm on
+# a big graph that contains an isolated node
+
+CreateGraph graph
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+AddNode graph E
+AddNode graph F
+AddNode graph G
+AddNode graph H
+AddNode graph I
+AddEdge graph C D 1.5
+AddEdge graph E C 3.0
+AddEdge graph C H 5.0
+AddEdge graph B C 2.5
+AddEdge graph H G 6.0
+AddEdge graph G I 7.0
+AddEdge graph D I 8.0
+AddEdge graph D F 1.5
+AddEdge graph E F 1.0
+FindPath graph C A
+FindPath graph E I
