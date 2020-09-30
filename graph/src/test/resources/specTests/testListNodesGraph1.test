@@ -1,0 +1,8 @@
+# Create an empty graph
+CreateGraph graph1
+
+# Add a vertex into graph1
+AddNode graph1 node1
+
+# Returns a list of vertices in graph1
+ListNodes graph1

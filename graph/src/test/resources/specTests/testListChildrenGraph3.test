@@ -1,0 +1,15 @@
+# Create an empty graph
+CreateGraph graph3
+
+# Add 3 nodes to graph3
+AddNode graph3 node1
+AddNode graph3 node2
+AddNode graph3 node3
+
+# Add 2 edges to graph3
+AddEdge graph3 node1 node2 edge1
+AddEdge graph3 node1 node3 edge2
+
+# Returns a list of children of the given vertex
+# in graph3
+ListChildren graph3 node1

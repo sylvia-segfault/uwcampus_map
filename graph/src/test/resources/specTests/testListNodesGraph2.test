@@ -1,0 +1,9 @@
+# Create an empty graph
+CreateGraph graph2
+
+# Add a pair of nodes
+AddNode graph2 node1
+AddNode graph2 node2
+
+# Returns a list of vertices in graph2
+ListNodes graph2

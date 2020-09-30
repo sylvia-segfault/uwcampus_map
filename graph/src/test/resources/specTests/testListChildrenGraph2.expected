@@ -1,0 +1,13 @@
+# Create an empty graph
+created graph graph2
+
+# Add a pair of nodes
+added node node1 to graph2
+added node node2 to graph2
+
+# Add an edge to these two vertices in graph2
+added edge edge1 from node1 to node2 in graph2
+
+# Returns a list of children of the given vertex
+# in graph2
+the children of node1 in graph2 are: node2(edge1)

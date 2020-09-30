@@ -1,0 +1,6 @@
+# Create an empty graph
+CreateGraph graph2
+
+# Add a pair of nodes
+AddNode graph2 node1
+AddNode graph2 node2

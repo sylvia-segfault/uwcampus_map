@@ -1,0 +1,8 @@
+# Create an empty graph
+created graph graph4
+
+# Add 4 nodes to graph4
+added node node1 to graph4
+added node node2 to graph4
+added node node3 to graph4
+added node node4 to graph4

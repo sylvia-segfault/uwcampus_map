@@ -1,0 +1,13 @@
+# Create an empty graph
+CreateGraph graph2
+
+# Add a pair of nodes
+AddNode graph2 node1
+AddNode graph2 node2
+
+# Add an edge to these two vertices in graph2
+AddEdge graph2 node1 node2 edge1
+
+# Returns a list of children of the given vertex
+# in graph2
+ListChildren graph2 node1

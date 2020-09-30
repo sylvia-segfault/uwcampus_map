@@ -1,0 +1,6 @@
+# Create an empty graph
+CreateGraph graph1
+
+# graph1 is initially empty. Returns a list of nodes
+# contained in this graph.
+ListNodes graph1

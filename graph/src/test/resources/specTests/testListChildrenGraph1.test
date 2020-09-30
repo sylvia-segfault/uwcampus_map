@@ -1,0 +1,9 @@
+# Create an empty graph
+CreateGraph graph1
+
+# Add a vertex into graph1
+AddNode graph1 node1
+
+# Returns a list of children of the given vertex
+# in graph1
+ListChildren graph1 node1

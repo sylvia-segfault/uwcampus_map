@@ -1,0 +1,15 @@
+# Create an empty graph
+created graph graph3
+
+# Add 3 nodes to graph3
+added node node1 to graph3
+added node node2 to graph3
+added node node3 to graph3
+
+# Add 2 edges to graph3
+added edge edge1 from node1 to node2 in graph3
+added edge edge2 from node1 to node3 in graph3
+
+# Returns a list of children of the given vertex
+# in graph3
+the children of node1 in graph3 are: node2(edge1) node3(edge2)

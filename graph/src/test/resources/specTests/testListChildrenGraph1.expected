@@ -1,0 +1,9 @@
+# Create an empty graph
+created graph graph1
+
+# Add a vertex into graph1
+added node node1 to graph1
+
+# Returns a list of children of the given vertex
+# in graph1
+the children of node1 in graph1 are:

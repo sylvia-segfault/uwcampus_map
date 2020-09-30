@@ -1,0 +1,11 @@
+# Create an empty graph
+CreateGraph graph4
+
+# Add 4 nodes to graph4
+AddNode graph4 node1
+AddNode graph4 node2
+AddNode graph4 node3
+AddNode graph4 node4
+
+# Returns a list of vertices in graph4
+ListNodes graph4

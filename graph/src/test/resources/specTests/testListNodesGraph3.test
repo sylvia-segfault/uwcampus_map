@@ -1,0 +1,10 @@
+# Create an empty graph
+CreateGraph graph3
+
+# Add 3 nodes to graph3
+AddNode graph3 node1
+AddNode graph3 node2
+AddNode graph3 node3
+
+# Returns a list of vertices in graph3
+ListNodes graph3

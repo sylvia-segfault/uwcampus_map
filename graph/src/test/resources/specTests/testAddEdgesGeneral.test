@@ -1,0 +1,13 @@
+# Create an empty graph
+CreateGraph graph4
+
+# Add 4 nodes to graph4
+AddNode graph4 node1
+AddNode graph4 node2
+AddNode graph4 node3
+AddNode graph4 node4
+
+# Add 3 edges to graph4
+AddEdge graph4 node1 node2 edge1
+AddEdge graph4 node1 node3 edge2
+AddEdge graph4 node1 node4 edge3
