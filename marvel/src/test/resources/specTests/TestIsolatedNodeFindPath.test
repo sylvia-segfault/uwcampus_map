@@ -1,0 +1,5 @@
+# Test finding a path on a graph that contains
+# an isolated node
+
+LoadGraph graph isolatedNode.tsv
+FindPath graph A F

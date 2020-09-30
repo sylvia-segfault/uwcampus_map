@@ -1,0 +1,6 @@
+# test the edge case when there is no path between two
+# heroes
+
+loaded graph graph
+path from A to G:
+no path found

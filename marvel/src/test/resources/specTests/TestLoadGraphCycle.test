@@ -1,0 +1,6 @@
+# Test if a graph is loaded correctly when it has a cycle
+
+LoadGraph graph cycle.tsv
+ListChildren graph A
+ListChildren graph B
+ListChildren graph C

@@ -1,0 +1,5 @@
+# test the edge case when it tries to find a path from
+# a character in the dataset to itself
+
+LoadGraph graph biggerData.tsv
+FindPath graph B B

@@ -1,0 +1,5 @@
+# test the edge case when it tries to find a path from
+# a character in the dataset to itself
+
+loaded graph graph
+path from B to B:

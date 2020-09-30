@@ -1,0 +1,6 @@
+# Test if a graph is loaded correctly when it has a cycle
+
+loaded graph graph
+the children of A in graph are: B(AB) C(AC)
+the children of B in graph are: A(AB) D(BD)
+the children of C in graph are: A(AC) D(CD)

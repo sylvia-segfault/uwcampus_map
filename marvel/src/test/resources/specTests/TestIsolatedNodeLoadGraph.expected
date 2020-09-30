@@ -1,0 +1,9 @@
+# Test finding a path on a graph that contains
+# an isolated node
+
+loaded graph graph
+graph contains: A B C D E F G I
+# test if G, an isolated node, has any children
+the children of G in graph are:
+# test if I, an isolated node, has any children
+the children of I in graph are:

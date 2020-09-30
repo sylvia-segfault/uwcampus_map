@@ -1,0 +1,9 @@
+# Test finding a path on a graph that contains
+# an isolated node
+
+LoadGraph graph isolatedNode.tsv
+ListNodes graph
+# test if G, an isolated node, has any children
+ListChildren graph G
+# test if I, an isolated node, has any children
+ListChildren graph I

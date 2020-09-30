@@ -1,0 +1,5 @@
+# Test the parser on a graph that contains one node
+
+LoadGraph oneNodeGraph oneNode.tsv
+ListNodes oneNodeGraph
+ListChildren oneNodeGraph THING/BENJAMIN_J._GR

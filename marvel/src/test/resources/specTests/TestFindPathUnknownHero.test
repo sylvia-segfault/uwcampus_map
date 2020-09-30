@@ -1,0 +1,5 @@
+# test the edge case when the given hero is not
+# in this graph
+
+LoadGraph graph biggerData.tsv
+FindPath graph happy coding

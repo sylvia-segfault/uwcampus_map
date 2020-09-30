@@ -1,0 +1,11 @@
+# Test the parser on a graph that contains three nodes with
+# a cycle
+
+loaded graph graph
+added node HAWK to graph
+added edge AVF5 from GORILLA-MAN to HAWK in graph
+added edge AVF5 from HUMAN to HAWK in graph
+path from GORILLA-MAN to HAWK:
+GORILLA-MAN to HAWK via AVF5
+path from HUMAN to HAWK:
+HUMAN to HAWK via AVF5

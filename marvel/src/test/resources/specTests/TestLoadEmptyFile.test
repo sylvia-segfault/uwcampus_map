@@ -1,0 +1,4 @@
+# Test the parser on a empty file
+
+LoadGraph graph empty.tsv
+ListNodes graph

@@ -1,0 +1,9 @@
+# Test the parser on a graph that contains three nodes with
+# a cycle
+
+LoadGraph graph TwoNodes.tsv
+AddNode graph HAWK
+AddEdge graph GORILLA-MAN HAWK AVF5
+AddEdge graph HUMAN HAWK AVF5
+FindPath graph GORILLA-MAN HAWK
+FindPath graph HUMAN HAWK

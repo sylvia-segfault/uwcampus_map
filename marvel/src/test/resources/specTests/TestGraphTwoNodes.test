@@ -1,0 +1,6 @@
+# Test the parser on a graph that contains two nodes
+
+LoadGraph twoNodeGraph TwoNodes.tsv
+ListNodes twoNodeGraph
+ListChildren twoNodeGraph HUMAN
+ListChildren twoNodeGraph GORILLA-MAN

@@ -1,0 +1,5 @@
+# test the edge case when there is no path between two
+# heroes
+
+LoadGraph graph isolatedNode.tsv
+FindPath graph A G

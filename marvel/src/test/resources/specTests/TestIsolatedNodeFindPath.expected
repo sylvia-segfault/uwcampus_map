@@ -1,0 +1,8 @@
+# Test finding a path on a graph that contains
+# an isolated node
+
+loaded graph graph
+path from A to F:
+A to B via AB
+B to D via BD
+D to F via DF

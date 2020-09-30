@@ -1,0 +1,6 @@
+# Test the parser on a graph that contains two nodes
+
+loaded graph twoNodeGraph
+twoNodeGraph contains: GORILLA-MAN HUMAN
+the children of HUMAN in twoNodeGraph are: GORILLA-MAN(AVF 4)
+the children of GORILLA-MAN in twoNodeGraph are: HUMAN(AVF 4)

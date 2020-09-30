@@ -1,0 +1,4 @@
+# Test the parser on a empty file
+
+loaded graph graph
+graph contains:

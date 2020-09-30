@@ -1,0 +1,29 @@
+CSE 331 Homework.  Answers to written questions.
+Edit this file to supply your answers.
+
+Name:  <Sylvia Wang>
+
+Briefly describe any changes made to your Graph ADT from previous assignments,
+and why those changes were made below. If you made no changes, state that
+explicitly. (See the marvel assignment spec for details.)
+
+1.
+I changed the Edge class inside the graph from private to public, and added
+getter methods for its private fields because it is helpful for BFS
+algorithm to get the information about the given edge and is helpful
+for writing the test driver.
+
+2.
+For my representation of graph, I changed my graph from Map<String, Set<Edge>>
+to Map<String, List<Edge>> because it is more convenient when we want to
+use a comparator to sort the edges in both BFS algorithm and the test driver.
+
+3.
+I removed hashCode and equals methods in the Edge class because they were
+not necessary and would not be used.
+
+4.
+For both addVertex and addEdge class, I removed the exception handler. Instead,
+I chose to return true if the operation is done successfully, otherwise return
+false. It is helpful for building the graph with the given input file because
+it signifies whether there is a duplicated vertex or a duplicated edge.

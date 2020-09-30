@@ -1,0 +1,6 @@
+# Test BFS algorithm on a graph that contains self-loops
+
+LoadGraph graph biggerData.tsv
+# Add a reflexive edge
+AddEdge graph B B BB
+FindPath graph A E
